@@ -68,7 +68,6 @@
     "fragment-cache": "^0.2.1",
     "fresh": "^0.5.2",
     "fs-extra": "^3.0.1",
-    "fsevents": "^1.2.9",
     "gaze": "^0.5.2",
     "get-caller-file": "^1.0.3",
     "get-value": "^2.0.6",
@@ -249,7 +248,7 @@
     "toidentifier": "^1.0.0"
   },
   "devDependencies": {
-    "gulp": "^3.8.8",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-image": "^5.1.0",
