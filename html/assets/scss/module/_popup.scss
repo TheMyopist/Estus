@@ -1,0 +1,239 @@
+/*---------------------------
+    # popup
+----------------------------*/
+.modal ::-webkit-scrollbar {
+    display: none;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-content {
+    border: none;
+}
+
+.modal-dialog {
+    max-width: 940px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.modal button.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: $color-dark;
+    text-shadow: none;
+    box-shadow: none;
+    opacity: 1;
+    z-index: 1;
+}
+
+.modal button.close:hover {
+    color: $color-theme;
+}
+
+.modal-open .modal {
+    padding: 0 !important;
+}
+
+.popup--content {
+    padding: 80px
+}
+
+.modal .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.modal .row [class*="col-"],
+.container .modal .row [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+[class*="popup-"] .heading {
+    margin-bottom: 39px;
+}
+
+.popup--btns {
+    display: inline-block;
+}
+
+.popup--btns a:first-of-type {
+    margin-right: 15px;
+}
+
+
+/* popup #1 */
+
+.popup-1 .modal-content {
+    border-radius: 4px;
+}
+
+.popup-1 .heading {
+    margin-bottom: 37px;
+}
+
+.popup-1 .popup--img img {
+    width: 100%;
+}
+
+
+
+/* popup #2 */
+
+.popup-2 .modal-dialog {
+    max-width: 500px;
+}
+
+.popup-2 .popup--content {
+    padding: 50px;
+}
+
+.popup-2 .heading-icon {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    background-color: $color-theme;
+    color: $color-white;
+    text-align: center;
+    @include prefix(border-radius, 50%, webkit moz ms o);
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+
+/* popup #3 */
+
+.popup-3 .popup--content {
+    padding: 0;
+}
+
+.popup-3 .modal-content {
+    background-color: transparent;
+}
+
+.popup-3 .modal-dialog {
+    overflow: visible;
+    max-width: 780px;
+}
+
+.popup-3 button.close {
+    top: -10px;
+    right: 0;
+    color: $color-white;
+}
+
+
+/* popup #4 */
+.popup-4 .modal-content {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.popup-4 .popup--content {
+    padding: 95px 80px;
+}
+
+.popup-4 .popup--img {
+    padding: 50px 0 0 55px;
+    position: absolute;
+    bottom: 0;
+}
+
+.popup-4 .popup--img img {
+    height: 100%;
+}
+
+.popup-4 .heading {
+    margin-bottom: 37px;
+}
+
+/* popup #5 */
+.popup-5 .modal-content {
+    max-height: 430px;
+}
+
+.popup-5 .popup--content {
+    padding: 80px 40px;
+
+}
+
+.popup-5 .heading {
+    margin-bottom: 26px;
+}
+
+.popup-5 button.close {
+    top: -25px;
+    right: 0;
+    color: $color-white;
+}
+
+/* popup #6 */
+
+.popup-6 .modal-dialog {
+    max-width: 500px;
+}
+
+.popup-6 .popup--content {
+    padding: 80px 40px;
+}
+
+.popup-6 .heading .heading-title,
+.popup-6 .heading .heading-desc,
+.popup-6 button.close {
+    color: $color-white;
+}
+
+/* popup #7 */
+.popup-7 .modal-content {
+    border-radius: 4px;
+}
+
+.popup-7 .modal-dialog,
+.popup-10 .modal-dialog {
+    max-width: 560px;
+}
+
+/* popup #8 */
+
+.popup-8 .heading {
+    margin-bottom: 39px;
+}
+
+.popup-8 .modal-dialog {
+    max-width: 560px;
+}
+
+.popup-8 .popup--btns .btn--primary.btn--secondary {
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+}
+
+.popup-8 .popup--btns .btn--primary.btn--secondary:hover {
+    background-color: $color-heading;
+    border-color: $color-heading;
+}
+
+/* popup #8 */
+.popup-10 {
+    .form-subscription {
+        .btn {
+            position: relative;
+            width: 100%;
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .popup--content,
+    .popup-4 .popup--content {
+        padding: 50px
+    }
+
+}

@@ -1,0 +1,9 @@
+@media only screen and (min-width : 992px) {
+    ul.mega-menu li ul li span {
+        color: $color-theme;
+    }
+
+    .mega-dropdown-menu .container a[href='#'] {
+        color: $color-theme;
+    }
+}

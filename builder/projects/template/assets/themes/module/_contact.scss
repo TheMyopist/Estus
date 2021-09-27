@@ -1,0 +1,36 @@
+.contact-4 {
+    .features-list {
+        li {
+
+            &:before {
+                color: $color-theme;
+            }
+
+        }
+    }
+}
+
+.contact-8 {
+    .form-control {
+
+        &:focus {
+            border-color: $color-theme;
+        }
+    }
+}
+
+
+.contact-9 {
+
+    .form-control:focus {
+        border-color: $color-theme;
+    }
+}
+
+
+.contact-11 {
+
+    .form-control:focus {
+        border-color: $color-theme;
+    }
+}

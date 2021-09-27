@@ -1,0 +1,8 @@
+.tabs .nav-tabs>li.active>a h3,
+.tabs .nav-tabs>li.active>a:focus h3,
+.tabs .nav-tabs>li.active>a:hover h3,
+.tabs .nav-tabs>li.active>a i,
+.tabs .nav-tabs>li.active>a:focus i,
+.tabs .nav-tabs>li.active>a:hover i {
+    color: $color-theme;
+}

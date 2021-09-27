@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+<!-- Document Meta
+============================================= -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--IE Compatibility Meta-->
+<meta name="author" content="zytheme" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Multi-purpose Business html5 landing page">
+<link href="assets/images/favicon/favicon.png" rel="icon">
+
+<!-- Fonts
+============================================= -->
+<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i%7CPoppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<!-- Stylesheets
+============================================= -->
+<link href="assets/css/external.css" rel="stylesheet">
+<link href="assets/css/style.css" rel="stylesheet">
+
+<!-- COLORS -->
+<link rel="stylesheet" href="assets/css/themes/theme-default.css"/>
+ <!--<link rel="stylesheet" href="assets/css/themes/theme-brown.css"/>-->
+ <!--<link rel="stylesheet" href="assets/css/themes/theme-green.css"/>-->
+ <!--<link rel="stylesheet" href="assets/css/themes/theme-orange.css"/>-->
+ <!--<link rel="stylesheet" href="assets/css/themes/theme-red.css"/>-->
+ <!--<link rel="stylesheet" href="assets/css/themes/theme-yellow.css"/>-->
+ 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+<script src="assets/js/html5shiv.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<![endif]-->
+
+<!-- Document Title
+============================================= -->
+<title>Services Modern | Crown HTML5 landing page</title>
+</head>
+
+<body class="body-scroll">
+<!-- Document Wrapper
+============================================= -->
+<div id="wrapper" class="wrapper clearfix">
+<header id="navbar-spy" class="header header-transparent">
+	<nav class="navbar navbar-expand-lg navbar-light navbar-bordered">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+			<img class="logo-light" src="assets/images/logo/logo-light.png" alt="Crown Logo">
+		  </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="toogle-inner"></span>
+		  </button>
+			<div class="collapse navbar-collapse" id="navbarContent">
+				<ul class="navbar-nav  ml-auto">
+                    <li class="active"> 
+						<a data-scroll="scrollTo" href="#hero1">Home</a>                                  
+					</li>								    
+				    <li>
+						<a data-scroll="scrollTo" href="#feature1">About</a>
+					</li>				    
+					<li>
+						<a data-scroll="scrollTo" href="#banner1">services</a>
+					</li>				    
+					<li>
+						<a data-scroll="scrollTo" href="#video1">Video</a>
+					</li>				
+					<li>
+						<a data-scroll="scrollTo" href="#testimonials1">Testimonials</a>
+					</li>
+				</ul> 				
+				<div class="module-container">
+				<div class="module module-btn">
+					<a class="btn btn-transparent" href="#">Get A Quote</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+<!-- hero #1
+============================================= -->
+<section id="hero1" class="section hero hero-1 text-center bg-overlay bg-overlay-dark bg-img" style="background-image: url(assets/images/background/39.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                <div class="hero-content">
+                    <h1 class="hero-headline">awesome Template <br>to promote your services</h1>
+                    <p class="hero-desc">crown is simply dummy text of the printing and typesetting industry. <br> crown has been the industry's since the 1500s</p>
+                    <a href="#" class="btn btn--primary" data-toggle="modal" data-target="#popup1">Get A Quote</a>
+                    <!-- Modal -->
+<div class="modal fade popup-1" id="popup1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row split-section">
+                    <div class="col-sm-12 col-sm-12 col-lg-5 split-img-warp">
+                        <div class="split-img  bg-img" style="background-image: url(assets/images/popup/1.jpg);">
+                        </div>
+                    </div>
+                    <!-- .col-lg-5 end -->
+                    <div class="col-sm-12 col-sm-12 col-lg-7 offset-lg-5 split-content-warp">
+                        <div class="popup--content">
+                            <div class="heading heading-1 text-left">
+                                <p class="heading-subtitle color-theme">Get A Quote</p>
+                                <h2 class="heading-title">Get a better results</h2>
+                                <p class="heading-desc">crown impresses you with fully responsiveness and highly customization. We did it in combination of very clean impresses you with fully responsiveness.</p>
+                            </div>
+                            <!-- .heading end -->
+                            <div class="popup--form">
+                                <form method="post" action="assets/php/contact.php" class="contactForm mb-0" novalidate>
+                                    <div id="resultPopUp1" class="contact-result"></div>
+                                    <div class="form-group">
+                                        <input type="text" id="namePopUp1" class="form-control" name="name" placeholder="Your Name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" id="emailPopUp1" class="form-control" name="email" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="phonePopUp1" class="form-control" name="phone" placeholder="Phone Number" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn--primary btn--block">Get A Quote</button>
+                                    </div>
+                                </form>
+                                <div class="popup-alert"></div>
+                                <div class="agreement">* We don’t spam customers. Check our <a href="#">Privacy Policy</a></div>
+                            </div>
+                            <!-- .popup-form end -->
+                        </div>
+                        <!-- .popup-content -->
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <!-- .col-lg-7 end -->
+                </div>
+                <!-- .row end -->
+            </div>
+            <!-- .Modal-body end -->
+        </div>
+        <!-- .Modal-content end -->
+    </div>
+</div>
+<!-- .Modal end -->
+                </div>
+                <!-- .hero-content end -->
+            </div>
+            <!-- .col-lg-8 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #hero1 end -->
+<!-- Feature #1
+============================================= -->
+<section id="feature1" class="section feature feature-1 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                <div class="heading heading-1 heading-center mb-70">
+                    <p class="heading-subtitle color-theme">Build your website</p>
+                    <h2 class="heading-title">Start Your business</h2>
+                    <p class="heading-desc">crown impresses you with fully responsiveness and highly customization. We did it in combination of very clean impresses you.</p>
+                </div>
+            </div>
+            <!-- .col-lg-8 end -->
+        </div>
+        <!-- .row end -->
+        <div class="row">
+            <!-- feature Panel #1 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-icon">
+                        <i class="crownicon icon-layers"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Unlimited Features</h3>
+                        <p>crown impresses you with fully responsiveness and highly customization and flexible.</p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-lg-4 end -->
+
+            <!-- feature Panel #2 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-icon">
+                        <i class="crownicon icon-tools"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Creative Design</h3>
+                        <p>We did it in combination of very clean and flexible design with fully responsiveness</p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-lg-4 end -->
+
+            <!-- feature Panel #3 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="feature-panel">
+                    <div class="feature-icon">
+                        <i class="crownicon icon-lightbulb"></i>
+                    </div>
+                    <div class="feature-content">
+                        <h3>Ultra Responsive</h3>
+                        <p>crown impresses you with fully responsiveness and highly customization and flexible.</p>
+                    </div>
+                </div>
+                <!-- .feature-panel end -->
+            </div>
+            <!-- .col-lg-4 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #feature1  end -->
+
+<!-- banner #1
+============================================= -->
+<section id="banner1" class="section banner banner-1 bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                <div class="heading heading-1">
+                    <p class="heading-subtitle color-theme">Awesome Tools</p>
+                    <h2 class="heading-title">GET A BETTER RESULTS</h2>
+                    <p class="heading-desc">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s...</p>
+                </div>
+                <!-- .heading  end -->
+            </div>
+            <!-- .col-lg-5 end -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 offset-lg-1">
+                <div class="banner-img text-right">
+                    <img src="assets/images/banners/1.png" alt="banner" class="img-fluid">
+                </div>
+            </div>
+            <!-- .col-lg-6 end -->
+        </div>
+        <!-- .row end -->
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="banner-img">
+                    <img src="assets/images/banners/2.png" alt="banner" class="img-fluid">
+                </div>
+            </div>
+            <!-- .col-lg-6 end -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-5 offset-lg-1">
+                <div class="heading heading-1">
+                    <p class="heading-subtitle color-theme">Great Template</p>
+                    <h2 class="heading-title">Powerful & simple</h2>
+                    <p class="heading-desc">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s...</p>
+                </div>
+                <!-- .heading  end -->
+            </div>
+            <!-- .col-lg-5 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #banner1 end -->
+
+<!-- video #1
+============================================= -->
+<section id="video1" class="section video video-1 text-center bg-overlay bg-overlay-dark bg-parallax bg-img" style="background-image: url(assets/images/background/13.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
+                <h3 class="video--title">Customers love crown's robust and modern design</h3>
+                <div class="video-content">
+                    <div class="video-button">
+                        <a class="popup-video video-text" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+                           <i class="fa fa-play"></i> Watch Overview
+                         </a>
+                    </div>
+                </div>
+                <!-- .video-content end -->
+            </div>
+            <!-- .col-lg-6 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #video1 end -->
+
+<!-- Testimonials#1
+============================================= -->
+<section id="testimonials1" class="section testimonials testimonials-1 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                <div class="heading heading-1 heading-center mb-70">
+                    <p class="heading-subtitle color-theme">Best Clients</p>
+                    <h2 class="heading-title">Our trusted partners</h2>
+                    <p class="heading-desc">crown impresses you with fully responsiveness and highly customization. We did it in combination of very clean impresses you.</p>
+                </div>
+            </div>
+            <!-- .col-lg-8 end -->
+        </div><!-- .row end -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="carousel  owl-carousel" data-slide="3" data-slide-rs="1" data-autoplay="true" data-nav="false" data-dots="false" data-space="20" data-loop="true" data-speed="800">
+                    <!-- Testimonial #1 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Awesome Design</h3>
+                            <p>It’s just brilliant. I will recommend crown to everyone I know! I’m really glad to these guys.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/1.png" alt="thumb">
+                            </div>
+                            <h4>Mark Smith</h4>
+                            <p> Envato inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #2 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Responsive Layout</h3>
+                            <p>My project was a simple task, but the persistence & determination of the team turned it into a great project! </p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/2.png" alt="thumb">
+                            </div>
+                            <h4>Vera Duncan</h4>
+                            <p>PayPal Inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #3 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Great Support</h3>
+                            <p>In my job as social media strategist, I've tried every analytics product on the market</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/3.png" alt="thumb">
+                            </div>
+                            <h4>Bryce Vaughn</h4>
+                            <p>Unbounce Inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                    <!-- Testimonial #4 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Awesome Design</h3>
+                            <p>My project was a simple task, but the persistence & determination of the team turned it into a great project! </p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/4.png" alt="thumb">
+                            </div>
+                            <h4>Mark Smith</h4>
+                            <p> Envato inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #5 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Responsive Layout</h3>
+                            <p>It’s just brilliant. I will recommend crown to everyone I know! I’m really glad to these guys.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/5.png" alt="thumb">
+                            </div>
+                            <h4>Vera Duncan</h4>
+                            <p>PayPal Inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+
+                    <!-- Testimonial #6 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial-body">
+                            <h3>Great Support</h3>
+                            <p>In my job as social media strategist, I've tried every analytics product on the market. </p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial-meta">
+                            <div class="testimonial-img">
+                                <img src="assets/images/testimonials/thumbs/6.png" alt="thumb">
+                            </div>
+                            <h4>Bryce Vaughn</h4>
+                            <p>Unbounce Inc.</p>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                </div>
+                <!-- #testimonial-carousel end -->
+            </div>
+            <!-- .col-lg-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #testimonials1 end -->
+
+<!-- CTA #1
+============================================= -->
+<section id="cta1" class="section cta cta-1 bg-theme text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
+                <div class="heading heading-1 heading-center mb-40">
+                    <p class="heading-subtitle">Build your website</p>
+                    <h2 class="heading-title">Start Your business</h2>
+                    <p class="heading-desc">crown impresses you with fully responsiveness and highly customization. We did it in combination of very clean impresses you.</p>
+                </div>
+                <!-- .heading end -->
+                <a href="#" class="btn btn--white" data-toggle="modal" data-target="#popup1">Get A Quote</a>
+            </div>
+            <!-- .col-lg-8 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #cta1 end -->
+
+<!-- Clients #1
+============================================= -->
+<section id="clients1" class="section clients clients-1 bg-theme section-divider-light">
+    <div class="container">
+        <div class="row">
+            <!-- Client #1 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/1.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+            <!-- Client #2 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/2.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+            <!-- Client #3 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/3.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+            <!-- Client #4 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/4.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+            <!-- Client #5 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/5.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+            <!-- Client #6 -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="client">
+                    <a href="#"><img class="center-block" src="assets/images/clients/6.png" alt="client"></a>
+                </div>
+            </div>
+            <!-- .col-lg-2 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #clients1 end -->
+
+<!-- Footer #1
+============================================= -->
+<footer id="footer1" class="footer footer-1 text-center">
+    <!-- Widget Section
+	============================================= -->
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="widget-links"> 
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#">Our Company</a></li>
+                            <li><a href="#">Our Location</a></li>
+                            <li><a href="#">Help center</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                    <!-- .footer-widget-links end -->
+                    <div class="widget-logo">
+                        <a href="#">
+                           <img src="assets/images/logo/footer-logo-light-horizontal.png" alt="logo">
+                        </a>
+                    </div>
+                    <!-- .footer-widget-social end -->
+                    <div class="widget-social">
+                        <a href="#" class="facebook"><i class="crownicon fa fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="crownicon fa fa-twitter"></i></a>
+                        <a href="#" class="linkedin"><i class="crownicon fa fa-linkedin"></i></a>
+                        <a href="#" class="instagram"><i class="crownicon fa fa-instagram"></i></a>
+                    </div>
+                    <!-- .footer-widget-social end -->
+                    <div class="footer-copyright mb-0">
+                        <span> 2019 &copy;  <a href="#">Crown Template.</a> All rights reserved.</span>
+                    </div>
+                    <!-- .footer-copyright end -->
+                </div>
+                <!-- .col-lg-12 end -->
+            </div>
+            <!-- .row end -->
+        </div>
+        <!-- .container end -->
+    </div>
+    <!-- .footer-widget end -->
+</footer>
+<!-- #footer1 end -->
+</div>
+<!-- #wrapper end -->
+
+<!-- Footer Scripts
+============================================= -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/functions.js"></script>
+</body>
+</html>

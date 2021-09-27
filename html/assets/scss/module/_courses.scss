@@ -1,0 +1,68 @@
+/*--------------------------------
+    # courses
+--------------------------------*/
+
+.course-panel {
+    background-color: $color-white;
+    border: 1px solid #ececec;
+}
+
+.course--img {
+    position: relative;
+}
+
+.course--img img {
+    width: 100%;
+}
+
+.course--price {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: $color-secondary;
+    color: $color-white;
+    padding: 2px 7px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: $font-heading;
+    display: block;
+    border-radius: 2px;
+}
+
+.course--content {
+    padding: 28px 25px 35px;
+}
+
+.course--content h3 {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 17px;
+}
+
+.course--content p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 23px;
+}
+
+.course--content .btn {
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .course-panel {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+
+}

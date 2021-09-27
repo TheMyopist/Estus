@@ -1,0 +1,24 @@
+.feature-panel {
+
+    .feature-icon {
+        color: $color-theme;
+    }
+
+}
+
+.feature-left-circle .feature-panel .feature-icon {
+    background-color: $color-theme;
+}
+
+.feature-4 {
+    .feature-panel {
+
+        .feature-icon {
+            background-color: $color-theme;
+        }
+    }
+}
+
+.feature-16 .feature-panel .feature-icon {
+    color: $color-theme;
+}

@@ -1,0 +1,244 @@
+/*------------------------------------*\
+    #Services
+\*------------------------------------*/
+
+.service-panel {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: capitalize;
+        margin-bottom: 17px;
+    }
+
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        line-height: 26px;
+        font-size: 11px;
+    }
+
+    p+.btn {
+        margin-top: 27px;
+    }
+
+    .service-hover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Services #1 */
+
+.services-1 {
+
+    .service-panel {
+        .service-hover {
+            text-align: center;
+            padding: 0 50px;
+            background-color: rgba(27, 27, 27, 0.8);
+
+            h3 {
+                margin-bottom: 20px;
+                color: $color-white;
+            }
+
+            p {
+                color: $color-white;
+            }
+        }
+
+        .service-img {
+
+
+            img {
+                width: 100%;
+                @include prefix(transition, all 500ms linear, moz webkit ms o);
+            }
+        }
+
+        &:hover {
+            .service-img {
+                img {
+                    @include prefix(transform, scale(1.1) rotate(5deg), moz webkit ms o);
+                }
+            }
+        }
+    }
+
+}
+
+/* Services #2 */
+
+.services-2 {
+    .service-panel {
+        border-radius: 2px;
+
+        p {
+            padding: 0 20px;
+        }
+
+        .service-img {
+            margin-bottom: 28px;
+        }
+
+    }
+}
+
+/* Services #3 */
+
+.services-3 {
+    .service-panel {
+        @include prefix(border-radius, 0, webkit moz ms o);
+
+        h3 {
+            color: $color-white;
+            margin-bottom: 0;
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+    }
+
+    .service-hover {
+        background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+        background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+        background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 255, 255, 0)), color-stop(100, rgba(0, 0, 0, 0.3)));
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%);
+    }
+
+    .service-hover-content {
+        position: absolute;
+        bottom: 35px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-img {
+        img {
+            width: 100%;
+        }
+    }
+
+}
+
+/* Services #4 */
+
+.services-4 {
+    .service-panel {
+        background-color: $color-gray;
+        border: 1px solid #ececec;
+        @include prefix(border-radius, 0, webkit moz ms o);
+
+        .service-content {
+            padding: 35px 25px 35px;
+        }
+
+        .service-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.services-4 .service-panel h3 {
+    margin-bottom: 6px;
+}
+
+.services-4 .service-panel p span {
+    color: $color-theme;
+}
+
+.services-4 .service-panel p+.btn {
+    margin-top: 22px;
+}
+
+/* Services #5 */
+
+.services-5 .service-panel {
+    padding: 15px 20px 33px;
+    border-radius: 2px;
+}
+
+.services-5 .service-panel-1 {
+    background-color: #fa6742;
+}
+
+.services-5 .service-panel-2 {
+    background-color: #2bc2a7;
+}
+
+.services-5 .service-panel-3 {
+    background-color: #ffb72f;
+}
+
+.services-5 .service-panel h3 {
+    margin-bottom: 22px;
+}
+
+.services-5 .service-panel h3,
+.services-5 .service-panel p {
+    color: $color-white;
+}
+
+.services-5 .service-img {
+    margin-bottom: 61px;
+}
+
+.services-6 {
+    margin-top: -120px
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .service-panel {
+        margin-bottom: 30px;
+    }
+
+    .services-1 .service-hover {
+        padding: 0 30px;
+    }
+
+    .services-2 .service-panel p {
+        padding: 0;
+    }
+
+    .services-3 .service-panel,
+    .services-4 .service-panel {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .services-1 .service-hover {
+        padding: 0 30px;
+    }
+}

@@ -1,0 +1,305 @@
+.navbar-separator {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 0;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    text-indent: -9999;
+
+    &:before {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        content: "";
+        width: 1px;
+        height: 20px;
+        background-color: #ececec;
+    }
+}
+
+.module-separator {
+    position: relative;
+    padding-left: 25px;
+    padding-right: 0;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    text-indent: -9999px;
+
+    &:before {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        content: "";
+        width: 1px;
+        height: 20px;
+        background-color: #ececec;
+    }
+
+}
+
+/*-------------------------------
+    #MODULE
+---------------------------------*/
+
+.module-container {
+    line-height: 80px;
+    position: relative;
+
+    .module {
+        color: #fff;
+        margin-left: 25px;
+        display: inline-block
+    }
+}
+
+/* Module Button */
+
+.module-btn {
+    .btn {
+        font-family: $font-heading;
+        font-size: 11px;
+        font-weight: 600;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: $color-theme;
+        color: $color-white;
+        border-radius: 2px;
+        border: 1px solid $color-theme;
+
+        &:hover {
+            color: $color-white;
+            background-color: darken(desaturate($color-theme, 6.18), 8.04);
+            border-color: darken(desaturate($color-theme, 6.18), 8.04)
+        }
+
+        &.btn-purchase {
+            width: 115px;
+            background-color: $color-white;
+            border-color: $color-white;
+            color: $color-heading;
+
+            &:hover {
+                background-color: $color-heading;
+                border-color: $color-heading;
+                color: $color-white;
+            }
+        }
+
+
+        &.btn-transparent {
+            background-color: transparent;
+            color: $color-white;
+            border-color: rgba(236, 236, 236, 0.25);
+
+            &:hover {
+                background-color: $color-white;
+                color: $color-theme;
+                border-color: $color-white;
+            }
+        }
+
+        &.btn-white {
+            background-color: $color-white;
+            border-color: $color-white;
+            color: $color-theme;
+
+            &:hover {
+                background-color: $color-heading;
+                border-color: $color-heading;
+                color: $color-white;
+            }
+        }
+    }
+
+
+
+
+    .btn-secondary {
+        background-color: $color-secondary;
+        color: $color-white;
+        border-color: $color-secondary;
+
+        &:hover {
+            background-color: darken(desaturate($color-secondary, 6.18), 8.04);
+            color: $color-white;
+            border-color: darken(desaturate($color-secondary, 6.18), 8.04);
+        }
+    }
+}
+
+/* Module Social */
+
+.module-social {
+    position: relative;
+
+    a {
+        color: $color-heading;
+        font-size: 14px;
+        margin-right: 17px;
+        line-height: 80px;
+        display: inline-block;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:hover {
+            color: #999999;
+        }
+    }
+
+    &.module-social-light {
+        a {
+            color: $color-white;
+
+            &:hover {
+                color: #dfdfdf;
+            }
+        }
+    }
+}
+
+/* Module Info */
+
+.module-info {
+    span {
+        color: #999999;
+        font-family: $font-heading;
+        font-size: 11px;
+        font-weight: 600;
+        line-height: 70px;
+
+        strong {
+            color: #000;
+            text-transform: uppercase;
+            margin-right: 4px;
+            font-weight: 600;
+        }
+    }
+}
+
+.module-light span strong {
+    color: $color-white;
+}
+
+/* Topbar Module */
+
+.header-topbar {
+    .topbar {
+
+        .module {
+            line-height: 60px;
+        }
+
+        .module-info span,
+        .module-social a {
+            line-height: inherit
+        }
+
+    }
+}
+
+.header-topbar-2x {
+    .topbar {
+        .module {
+            line-height: 80px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .header-topbar {
+        .topbar {
+            .container {
+                margin: 0;
+                width: 100%;
+                max-width: inherit;
+            }
+        }
+    }
+
+
+    .repos-module-container {
+        position: absolute;
+        right: 15px;
+
+        .module-separator {
+            display: none;
+        }
+
+        .module-social {
+            a {
+                &:last-of-type {
+                    margin-right: 26px;
+                }
+            }
+        }
+    }
+
+    .navbar-separator {
+        display: none;
+    }
+
+    .module-container {
+        padding-left: 15px;
+        line-height: 36px;
+
+        .module-social {
+            a {
+                line-height: 36px;
+            }
+        }
+
+        .module-social-light {
+            a {
+                color: $color-heading;
+            }
+        }
+
+        .module-info {
+            span {
+                display: block;
+                line-height: 36px;
+            }
+        }
+
+        .float-right {
+            float: none !important;
+        }
+
+    }
+
+    .header .module-btn .btn-transparent {
+        background-color: $color-heading;
+        color: $color-white;
+    }
+
+    .header .module-container .module {
+        margin-left: 0;
+    }
+
+    .header-no-navabr {
+        .module-container {
+            padding-right: 15px;
+        }
+
+        .module-social-light {
+            a {
+                color: $color-white;
+            }
+        }
+
+        .module-social {
+            a {
+                line-height: 80px;
+            }
+        }
+    }
+
+}

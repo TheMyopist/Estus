@@ -1,0 +1,12 @@
+.timeline-content:before {
+    background-color: $color-theme;
+}
+
+.timeline-content:after {
+    border-top-color: $color-theme;
+}
+
+
+.timeline-content .timeline-panel:before {
+    border-color: $color-theme;
+}

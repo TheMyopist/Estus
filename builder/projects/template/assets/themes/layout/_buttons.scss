@@ -1,0 +1,46 @@
+.btn--primary {
+    background-color: $color-theme;
+    border-color: $color-theme;
+}
+
+.btn--primary:active,
+.btn--primary:focus,
+.btn--primary:hover {
+    background-color: darken(desaturate($color-theme, 6.18), 8.04);
+    border-color: darken(desaturate($color-theme, 6.18), 8.04);
+}
+
+.bg-dark .btn--primary:active,
+.bg-dark .btn--primary:focus,
+.bg-dark .btn--primary:hover {
+    color: $color-theme;
+}
+
+.btn--primary.btn--inverse:active,
+.btn--primary.btn--inverse:focus,
+.btn--primary.btn--inverse:hover {
+    color: $color-theme;
+}
+
+.btn--dark:active,
+.btn--dark:focus,
+.btn--dark:hover {
+    background-color: $color-theme;
+    border-color: $color-theme;
+}
+
+
+.btn--bordered {
+
+    &.btn--primary {
+        color: $color-theme;
+        border-color: $color-theme;
+
+        &:active,
+        &:focus,
+        &:hover {
+            background-color: $color-theme;
+            border-color: $color-theme
+        }
+    }
+}

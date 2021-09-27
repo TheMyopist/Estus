@@ -1,0 +1,43 @@
+.hero-10 {
+
+    &:before {
+        background-color: $color-theme;
+    }
+}
+
+.hero-13 {
+    .feature-panel {
+
+        .feature-data {
+
+            h4 {
+                color: $color-theme;
+            }
+
+        }
+
+    }
+
+}
+
+
+.hero-18 {
+
+    .text-panel {
+        h4 {
+            color: $color-theme;
+        }
+    }
+
+}
+
+
+.hero-20 .scroll--down-btn:hover {
+    background-color: $color-theme;
+}
+
+.hero-24 {
+    .hero-subheadline {
+        color: $color-theme;
+    }
+}

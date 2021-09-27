@@ -1,0 +1,19 @@
+::selection {
+    background-color: $color-theme;
+}
+
+a {
+    color: $color-theme;
+}
+
+a:hover {
+    color: darken($color-theme, 10%);
+}
+
+a:focus {
+    color: darken($color-theme, 10%);
+}
+
+a:active {
+    color: darken($color-theme, 10%);
+}

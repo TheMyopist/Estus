@@ -1,0 +1,62 @@
+.pricing-panel {
+
+    .pricing-heading {
+
+        h4 {
+            color: $color-theme;
+        }
+
+    }
+}
+
+.pricing-1 {
+
+    .price-table-2 {
+
+        .pricing-heading {
+            background-color: $color-theme;
+        }
+
+        .pricing-top {
+            background-color: $color-theme;
+        }
+    }
+}
+
+
+.pricing-3 {
+
+    .price {
+
+        color: $color-theme;
+    }
+
+}
+
+.pricing-5 .btn--bordered.btn--primary:hover {
+    border-color: $color-theme;
+}
+
+
+.pricing-7 {
+    .table {
+
+        td {
+
+
+            &.buy {
+
+                a {
+                    color: $color-theme;
+                }
+            }
+        }
+    }
+
+    .pricing-icon {
+
+        a {
+            color: $color-theme;
+        }
+    }
+}

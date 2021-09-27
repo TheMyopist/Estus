@@ -1,0 +1,381 @@
+/*------------------------------------*\
+	#team
+\*------------------------------------*/
+
+.member {
+    position: relative;
+    text-align: center;
+
+    .member-img {
+        margin-bottom: 27px;
+    }
+
+    .member-info {
+        h5 {
+            color: $color-heading;
+            font-size: 14px;
+            line-height: 1;
+            font-weight: 600;
+            margin-bottom: 7px;
+        }
+
+        h6 {
+            color: $color-body;
+            font-family: $font-body;
+            font-size: 12px;
+            line-height: 1;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 23px;
+            color: $color-body;
+        }
+
+    }
+
+    .member-social {
+        a {
+            display: inline-block;
+            color: $color-body;
+            font-size: 14px;
+            line-height: 1;
+            margin-right: 16px;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+
+            &:hover {
+                color: $color-heading;
+            }
+        }
+    }
+}
+
+/* team #2 */
+
+.team-2 {
+    .member-info {
+        padding: 0 25px;
+
+        h5 {
+            font-size: 16px;
+            margin-bottom: 19px;
+        }
+
+        p {
+            margin-bottom: 22px;
+        }
+
+    }
+
+    .member-img {
+        margin-bottom: 35px;
+    }
+}
+
+/* team #3 */
+
+.team-3 {
+    .member-info {
+        h5 {
+            color: $color-white;
+        }
+
+        h6 {
+            span {
+                color: $color-theme;
+            }
+        }
+    }
+
+    .member-donate {
+        background-color: $color-theme;
+        padding: 30px 20px 33px;
+        border-radius: 3px;
+        width: 140px;
+        margin: auto;
+
+        h6 {
+            color: $color-white;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            margin-bottom: 19px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 11px;
+            color: $color-heading;
+
+            &:hover {
+                background-color: $color-heading;
+                color: $color-white;
+                border-color: $color-heading;
+            }
+        }
+    }
+}
+
+/* team #4 */
+
+.team-4 {
+    position: relative;
+
+    .member {
+        position: static;
+        text-align: left;
+    }
+
+    .member-img {
+        margin-bottom: 0;
+    }
+
+    .heading {
+        margin-bottom: 31px;
+    }
+
+    .member-info {
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 36px;
+        }
+    }
+
+    .col-content {
+        padding: 98px 0;
+    }
+
+    .member-img-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width : 991px) {
+    .team-4 {
+        text-align: center;
+
+        .member-img {
+            min-height: 400px;
+        }
+
+        .member-img-container {
+            position: static;
+        }
+
+        .col-content {
+            border-bottom: 1px solid #ececec;
+        }
+
+        .member {
+            margin-bottom: 0;
+            text-align: center
+        }
+    }
+
+}
+
+/* team #5 */
+
+.team-5 {
+    position: relative;
+
+    .col-content {
+        padding: 98px 75px 98px 0;
+    }
+
+    .member {
+        position: static;
+        text-align: left;
+    }
+
+    .member-img-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 0;
+        height: 100%;
+    }
+
+    .member-img {
+        margin-bottom: 0;
+    }
+
+    .heading {
+        margin-bottom: 31px;
+    }
+
+    .member-info {
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 36px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+
+    .team-5 {
+        .member {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .member-img-container {
+            position: static;
+        }
+
+        .member-img {
+            min-height: 400px;
+        }
+    }
+}
+
+/* team #8 */
+
+.team-8 {
+    .member {
+        text-align: left;
+    }
+
+    .heading {
+        margin-top: 85px;
+        margin-bottom: 37px;
+    }
+
+    .member-info {
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 34px;
+            padding-right: 40px;
+        }
+    }
+
+    .member-img {
+        margin-bottom: 0;
+        text-align: center;
+
+        img {
+            max-height: 630px;
+        }
+
+    }
+
+    .member-social {
+        margin-bottom: 38px;
+
+        .social-title {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: $font-heading;
+            color: $color-heading;
+            text-transform: uppercase;
+            margin-right: 40px;
+        }
+    }
+
+}
+
+@media only screen and (max-width : 991px) {
+    .team-8 {
+        .member {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .member-img {
+            margin-top: 30px;
+        }
+
+        .member-info p {
+            padding-right: 0;
+        }
+    }
+}
+
+/* team #9 */
+
+.team-9 .member-img img {
+    width: 100%;
+}
+
+.team-9 .member-info h5,
+.team-9 .member-info h6 {
+    color: $color-white;
+}
+
+.team-9 .member--overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6000000', GradientType=0);
+}
+
+.team-9 .member-info {
+    position: absolute;
+    bottom: 37px;
+    left: 0;
+    width: 100%;
+}
+
+/* team #10 */
+
+.team-10 .member-img {
+    margin-bottom: 35px;
+}
+
+.team-10 .member-info h5 {
+    font-size: 16px;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .member {
+        margin-bottom: 30px;
+    }
+
+    .team-9 .member {
+        max-width: 220px;
+        margin: auto
+    }
+
+    .team-9 .member-img img {
+        width: auto;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .member {
+        margin-bottom: 30px;
+    }
+
+    .team-2 .member-info {
+        padding: 0;
+    }
+}

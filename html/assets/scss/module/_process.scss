@@ -1,0 +1,57 @@
+/*----------------------------
+        PROCESS
+-----------------------------*/
+
+.process-panel {
+    position: relative;
+}
+
+.process-panel h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.process-panel .process--icon {
+    margin-bottom: 28px;
+}
+
+.process .divider-bg {
+    position: relative;
+    width: 100%;
+}
+
+.process .divider-bg:before {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 84px;
+    background: url(../images/process/divider.png) no-repeat;
+    background-size: cover;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .process-panel {
+        margin-bottom: 30px;
+    }
+    .process .divider-bg:before {
+        display: none;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .process-panel {
+        margin-bottom: 30px;
+    }
+    .process .divider-bg:before {
+        display: none;
+    }
+}

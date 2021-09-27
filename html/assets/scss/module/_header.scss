@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+.header {
+	position: relative;
+}
+
+.header-transparent {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Header Light */
+.header-light .navbar {
+	background-color: $color-white;
+}
+
+.header-light+section {
+	margin-top: 0;
+}
+
+/* Header Dark */
+.header-dark {
+	.navbar {
+		background-color: $color-heading;
+	}
+
+	+section {
+		margin-top: 0;
+	}
+}
+
+/* Header Topbar */
+.header-topbar {
+	.topbar {
+		height: 60px;
+		background-color: #ffffff;
+	}
+
+	.topbar-dark {
+		background-color: $color-heading;
+	}
+
+	.topbar-bordered {
+		border-bottom: 1px solid #ececec
+	}
+
+	.topbar-bordered-light {
+		border-bottom: 1px solid rgba(236, 236, 236, 0.07)
+	}
+}
+
+.header-topbar-2x {
+	.topbar {
+		height: 80px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 991px) {
+	.header-topbar-2x {
+		.topbar {
+			.module-btn {
+				float: none !important;
+				text-align: center;
+			}
+
+			.float-right {
+				float: none !important;
+				text-align: center;
+			}
+		}
+	}
+}

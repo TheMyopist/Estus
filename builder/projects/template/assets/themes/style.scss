@@ -1,0 +1,39 @@
+//Base rules
+@import "base/vars";
+@import "base/mixins";
+@import "base/base";
+
+//Layout rules
+@import "layout/typography";
+@import "layout/color";
+@import "layout/align";
+@import "layout/background";
+@import "layout/buttons";
+@import "layout/forms";
+@import "layout/backtop";
+
+
+//Module rules
+@import "module/heading";
+@import "module/loading";
+@import "module/menu-min992";
+@import "module/module";
+@import "module/hero";
+@import "module/feature";
+@import "module/pricing";
+@import "module/carousel";
+@import "module/landing";
+@import "module/contact";
+@import "module/video";
+@import "module/banner";
+@import "module/team";
+@import "module/tabs";
+@import "module/progress";
+@import "module/portfolio";
+@import "module/timeline";
+@import "module/countdown";
+@import "module/counters";
+@import "module/propirties";
+@import "module/services";
+@import "module/popup";
+@import "module/switcher";

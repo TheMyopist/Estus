@@ -1,0 +1,24 @@
+.module-btn {
+    .btn {
+        background-color: $color-theme;
+        border-color: $color-theme;
+
+        &:hover {
+            background-color: darken(desaturate($color-theme, 6.18), 8.04);
+            border-color: darken(desaturate($color-theme, 6.18), 8.04)
+        }
+
+        &.btn-transparent {
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+
+        &.btn-white {
+            color: $color-theme;
+        }
+    }
+
+
+}

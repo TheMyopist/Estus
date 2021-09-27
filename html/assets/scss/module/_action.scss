@@ -1,0 +1,151 @@
+/*------------------------------------*\
+    #Call To Action
+\*------------------------------------*/
+
+.cta {
+    padding: 150px 0;
+
+    h3 {
+        color: $color-heading;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+}
+
+/* cta #1 */
+.cta-1 {
+
+    .heading-subtitle,
+    .heading-title,
+    .heading-desc {
+        color: $color-white;
+    }
+}
+
+
+/* cta #3 */
+
+.cta-3 {
+    .heading {
+        margin-bottom: 37px;
+    }
+
+    .btn {
+        width: 254px;
+        height: 48px;
+        line-height: 48px;
+    }
+}
+
+/* cta #4 */
+.cta-4 {
+    .heading-desc {
+        padding-right: 170px;
+    }
+
+    .btn {
+        width: 220px;
+        height: 48px;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    .cta-4 {
+        text-align: center
+    }
+}
+
+/* cta #6 */
+
+.cta-6 {
+    padding: 35px 0;
+}
+
+/* cta #8 */
+
+.cta-8 {
+
+    .heading-subtitle,
+    .heading-title,
+    .heading-desc {
+        color: $color-white;
+    }
+
+    .heading {
+        padding-top: 69px;
+
+        .heading-title {
+            font-size: 38px;
+            line-height: 60px;
+            margin-bottom: 15px;
+        }
+
+        .heading-desc {
+            padding-right: 70px;
+        }
+    }
+
+    .mockup-img {
+        text-align: right;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 991px) {
+    .cta-8 {
+        text-align: center;
+
+        .heading-desc {
+            padding-right: 0;
+        }
+    }
+}
+
+/* cta #9 */
+
+.cta-9 {
+    padding: 190px 0;
+
+    .heading {
+        margin-bottom: 31px;
+    }
+}
+
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .cta {
+        h3 {
+            line-height: 30px;
+            margin-bottom: 25px;
+        }
+
+    }
+
+    .cta-4 {
+
+        .heading-desc,
+        .heading {
+            padding-right: 0;
+        }
+    }
+
+    .cta-8 {
+
+        .heading-desc,
+        .heading {
+            padding-right: 0;
+        }
+
+        .btn {
+            margin-bottom: 30px;
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+.services-3 {
+    .service-panel {
+
+        h3 {
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+    }
+}
+
+.services-4 .service-panel p span {
+    color: $color-theme;
+}

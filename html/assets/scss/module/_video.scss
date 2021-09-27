@@ -1,0 +1,254 @@
+/*------------------------------------*\
+	#Video
+\*------------------------------------*/
+
+.video .video--title {
+    color: $color-white;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 39px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.video .video--desc {
+    color: $color-white;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.video-button .popup-video {
+    color: $color-white;
+    font-size: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.video-button .popup-video i {
+    background-color: $color-white;
+    color: #1b1b1b;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+.video-button .popup-video:hover {
+    animation: none;
+}
+
+
+.video--player:hover {
+    background-color: $color-theme;
+}
+
+.video-button .popup-video.video-text {
+    padding-left: 70px;
+    display: inline-block;
+    line-height: 60px;
+    text-align: left;
+    width: 180px;
+    height: 60px;
+}
+
+.video-button .popup-video.video-text i {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* video #1 */
+
+.video-1 {
+    padding: 180px 0 190px;
+}
+
+
+/* video #2 */
+
+.video-2 {
+    padding: 175px 0 190px;
+}
+
+.video-2 .video--title {
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.video-2 .video--desc {
+    margin-bottom: 37px;
+}
+
+/* video #3 */
+
+.video-3 {
+    padding: 190px 0;
+}
+
+.video-3 .video-button {
+    margin-bottom: 45px;
+}
+
+
+/* video #4 */
+
+.video-4 .video-content {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.video-4 .video-button {
+    height: 439px;
+
+}
+
+.video-3 .video-button .popup-video i,
+.video-4 .video-button .popup-video i {
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 18px;
+}
+
+
+
+/* video #7 */
+
+.video-7 {
+    padding: 190px 0 185px;
+}
+
+.video-7 .video-button {
+    margin-bottom: 25px;
+}
+
+.video-7 .video--title {
+    margin-bottom: 8px;
+}
+
+.video-7 .video--desc {
+    padding: 0 50px;
+    margin-bottom: 0;
+}
+
+.video-7 .video-button .popup-video i {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+}
+
+/* video #8 */
+
+.video-8 {
+    padding: 170px 0;
+}
+
+/* video #10 */
+
+.video-10 {
+    padding: 140px 0 145px;
+}
+
+/* video #11 */
+
+.video-11 .flipping--book {
+    margin-bottom: 67px;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    .video-11 {
+        text-align: center;
+
+        .list .list--content li:before {
+            display: none;
+        }
+    }
+}
+
+/* video #12 */
+
+.video-12 .view--more {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: $font-heading;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-top: 30px;
+    display: block;
+    color: $color-theme;
+}
+
+.video-12 .view--more i {
+    display: block;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+/* button animation */
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .video-2 .video--title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .video-7 .video--desc {
+        padding: 0;
+    }
+
+    .list h4 {
+        margin-bottom: 15px;
+    }
+
+    .list .list--content {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}

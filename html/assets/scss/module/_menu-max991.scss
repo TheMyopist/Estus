@@ -1,0 +1,206 @@
+@media only screen and (max-width: 991px) {
+
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        margin: 0;
+        width: 100%;
+        max-width: inherit;
+    }
+
+    .navbar {
+        .navbar-brand {
+            height: 80px;
+            line-height: 80px;
+            margin-left: 15px;
+        }
+    }
+
+    .navbar-collapse {
+        padding: 15px 0;
+    }
+
+    .navbar-toggler {
+        width: 25px;
+        height: 16px;
+        position: relative;
+        padding: 0;
+        position: absolute;
+        top: 36px;
+        right: 15px;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .navbar-light {
+        .navbar-toggler {
+            border: none;
+        }
+    }
+
+    .toogle-inner {
+        top: 50%;
+        display: block;
+        margin-top: -2px;
+        position: absolute;
+        width: 25px;
+        height: 2px;
+        background-color: $color-heading;
+        @include rounded(0);
+        @include prefix(transition, background 300ms 0s, webkit moz ms o);
+
+        &:before,
+        &:after {
+            display: block;
+            content: "";
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            -webkit-transition-duration: 300ms, 300ms;
+            -moz-transition-duration: 300ms, 300ms;
+            -o-transition-duration: 300ms, 300ms;
+            -ms-transition-duration: 300ms, 300ms;
+            transition-duration: 300ms, 300ms;
+            -webkit-transition-delay: 300ms, 0s;
+            -moz-transition-delay: 300ms, 0s;
+            -o-transition-delay: 300ms, 0s;
+            -ms-transition-delay: 300ms, 0s;
+            transition-delay: 300ms, 0s;
+            background-color: $color-heading;
+            @include rounded(0);
+        }
+
+        &:before {
+            top: -6px;
+            -webkit-transition-property: top, transform;
+            -moz-transition-property: top, transform;
+            -o-transition-property: top, transform;
+            -ms-transition-property: top, transform;
+            transition-property: top, transform;
+        }
+
+        &:after {
+            bottom: -6px;
+            -webkit-transition-property: bottom, transform;
+            -moz-transition-property: bottom, transform;
+            -o-transition-property: bottom, transform;
+            -ms-transition-property: bottom, transform;
+            transition-property: bottom, transform;
+        }
+    }
+
+    .toggler-active {
+        .toogle-inner {
+            background-color: transparent;
+
+            &:before,
+            &:after {
+                -webkit-transition-delay: 0s, 300ms;
+                -moz-transition-delay: 0s, 300ms;
+                -o-transition-delay: 0s, 300ms;
+                -ms-transition-delay: 0s, 300ms;
+                transition-delay: 0s, 300ms;
+            }
+
+            &:before {
+                top: 0;
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+
+            &:after {
+                bottom: 0;
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+            }
+
+        }
+
+    }
+
+    .navbar-light {
+        .toogle-inner {
+            background-color: $color-white;
+
+            &:before,
+            &:after {
+                background-color: $color-white;
+            }
+        }
+
+        .toggler-active {
+            .toogle-inner {
+                background-color: transparent;
+            }
+        }
+    }
+
+    /* Modifers */
+
+
+    .navbar {
+        .navbar-nav {
+            padding-left: 15px;
+
+            >li {
+                margin-right: 0;
+
+                >a {
+                    line-height: 36px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        &.navbar-light {
+            .navbar-nav {
+                >li {
+                    >a {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-transparent {
+        .toogle-inner {
+            background-color: $color-white;
+
+            &:before,
+            &:after {
+                background-color: $color-white;
+            }
+        }
+
+        .toggler-active {
+            .toogle-inner {
+                background-color: transparent;
+            }
+        }
+
+        .navbar-collapse {
+            background-color: $color-white;
+        }
+
+        .navbar {
+            &.navbar-light {
+                .navbar-nav {
+                    >li {
+                        >a {
+                            color: $color-heading;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

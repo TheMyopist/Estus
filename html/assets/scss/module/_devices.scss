@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #devices
+\*------------------------------------*/
+.devices .heading {
+    margin-bottom: 47px;
+}
+
+.device-card {
+    .btn {
+        width: 100px;
+        height: 30px;
+        line-height: 28px;
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .device-info {
+        margin-bottom: 23px;
+        line-height: 1;
+
+        >div {
+            display: inline-block;
+            color: $color-body;
+            font-size: 14px;
+            line-height: 1;
+        }
+
+        .title {
+            font-size: 14px;
+            font-weight: 600;
+            color: $color-heading;
+            width: 95px;
+            display: inline-block;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        .rating {
+            i {
+                color: #edc808;
+            }
+        }
+
+        .social-icons {
+            a {
+                color: $color-body;
+                margin-right: 11px;
+                display: inline-block;
+
+                &:hover {
+                    color: $color-heading
+                }
+            }
+        }
+    }
+}

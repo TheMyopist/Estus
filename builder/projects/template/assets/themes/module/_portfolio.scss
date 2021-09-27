@@ -1,0 +1,29 @@
+.portfolio-filter {
+
+    li {
+        a {
+
+            &:hover,
+            a.active-filter {
+                color: $color-theme
+            }
+        }
+
+    }
+}
+
+/* Portfolio Item */
+
+.portfolio-item {
+
+    .portfolio-title h4 {
+        a {
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+
+    }
+
+}

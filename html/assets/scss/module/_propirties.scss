@@ -1,0 +1,135 @@
+/*-------------------------------
+    # propirties
+---------------------------------*/
+
+.property-item {
+    border: 1px solid #ececec;
+}
+
+.property-item .property--img {
+    position: relative;
+}
+
+.property-item .property--img img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.property-item .property--img .label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0000;
+    color: $color-white;
+    padding: 3px 10px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: $font-heading;
+    display: block;
+}
+
+.property-item .property--img .label.blue {
+    background-color: $color-theme;
+}
+
+.property-item .property--img .label.green {
+    background-color: $color-secondary;
+}
+
+.property-item .property--info {
+    padding: 33px 22px;
+}
+
+.property-item .property--info h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.property-item .property--info .price {
+    color: $color-theme;
+    margin-left: 11px;
+}
+
+.property-item .property--info p {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.property-item .property--details {
+    padding: 28px 25px 35px;
+    border-top: 1px solid #ececec;
+}
+
+.property-item .property--details ul {
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.property-item .property--details li {
+    float: left;
+    width: 50%;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.property-item .property--details li .num {
+    color: $color-heading;
+    margin-left: 10px;
+}
+
+/* propirties #2 */
+
+.propirties-2 .property-item {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.propirties-2 .property-item .property--content {
+    flex: 1;
+}
+
+.propirties-2 .property-item .property--details li {
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    .property-item {
+        margin-bottom: 30px;
+    }
+
+    .propirties .property-item {
+        max-width: 350px;
+        margin: 0 auto 30px;
+    }
+
+    .propirties-2 .property-item {
+        display: block;
+        max-width: 300px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .propirties-2 .property-item {
+        display: block;
+    }
+
+    .propirties-2 .property--img img {
+        min-height: auto;
+    }
+
+}

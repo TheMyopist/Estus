@@ -1,0 +1,217 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+    font-family: $font-heading;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0;
+    width: 160px;
+    height: 50px;
+    line-height: 48px;
+}
+
+.btn.active,
+.btn:active {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Button Primary */
+
+.btn--primary {
+    background-color: $color-theme;
+    color: $color-white;
+    border: 2px solid $color-theme;
+}
+
+.btn--primary:active,
+.btn--primary:focus,
+.btn--primary:hover {
+    background-color: darken(desaturate($color-theme, 6.18), 8.04);
+    color: $color-white;
+    border-color: darken(desaturate($color-theme, 6.18), 8.04);
+}
+
+.bg-dark .btn--primary:active,
+.bg-dark .btn--primary:focus,
+.bg-dark .btn--primary:hover {
+    background-color: $color-white;
+    color: $color-theme;
+    border-color: $color-white;
+}
+
+.btn--primary.btn--inverse:active,
+.btn--primary.btn--inverse:focus,
+.btn--primary.btn--inverse:hover {
+    background-color: $color-white;
+    color: $color-theme;
+    border-color: $color-white;
+}
+
+/* Button Dark*/
+
+.btn--dark {
+    background-color: $color-heading;
+    color: $color-white;
+    border: 2px solid $color-heading;
+}
+
+.btn--dark:active,
+.btn--dark:focus,
+.btn--dark:hover {
+    background-color: $color-theme;
+    color: $color-white;
+    border-color: $color-theme;
+}
+
+/* Button White */
+
+.btn--white {
+    background-color: $color-white;
+    color: $color-heading;
+    border: 1px solid $color-white;
+}
+
+.btn--white:active,
+.btn--white:focus,
+.btn--white:hover {
+    background-color: $color-heading;
+    color: $color-white;
+    border-color: $color-heading;
+}
+
+/* Button Rounded */
+
+.btn--rounded {
+    border-radius: 50px;
+}
+
+/* Button Bordered */
+
+.btn--bordered {
+    background-color: transparent;
+
+    &.btn--primary {
+        color: $color-theme;
+        border-color: $color-theme;
+        background-color: transparent;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: $color-white;
+            background-color: $color-theme;
+            border-color: $color-theme
+        }
+    }
+
+    &.btn--secondary {
+        color: $color-secondary;
+        border-color: $color-secondary;
+        background-color: transparent;
+
+        &:active,
+        &:focus,
+        &:hover {
+            color: $color-white;
+            background-color: $color-secondary;
+            border-color: $color-secondary;
+        }
+    }
+}
+
+
+.btn--bordered.btn--dark {
+    color: $color-heading;
+    border-color: $color-heading;
+    background-color: transparent
+}
+
+.btn--bordered.btn--dark:active,
+.btn--bordered.btn--dark:focus,
+.btn--bordered.btn--dark:hover {
+    color: $color-white;
+    background-color: $color-heading;
+    border-color: $color-heading
+}
+
+.btn--bordered.btn--white {
+    color: $color-heading;
+    border-color: ececec
+}
+
+.btn--bordered.btn--white:active,
+.btn--bordered.btn--white:focus,
+.btn--bordered.btn--white:hover {
+    color: $color-heading;
+    border-color: ececec
+}
+
+.btn--white.btn--secondary {
+    color: $color-heading;
+    border-color: $color-white;
+    background-color: $color-white;
+}
+
+.btn--white.btn--secondary:active,
+.btn--white.btn--secondary:focus,
+.btn--white.btn--secondary:hover {
+    color: $color-white;
+    background-color: $color-heading;
+    border-color: $color-heading;
+}
+
+.bg-theme .btn--primary,
+.bg-overlay-theme .btn--primary {
+    background-color: $color-secondary;
+    color: $color-white;
+    border: none;
+}
+
+.btn--secondary {
+    background-color: $color-secondary;
+    color: $color-white;
+    border: 2px solid $color-secondary
+}
+
+.btn--secondary:active,
+.btn--secondary:focus,
+.btn--secondary:hover {
+    background-color: darken(desaturate($color-secondary, 6.18), 8.04);
+    color: $color-white;
+    border-color: darken(desaturate($color-secondary, 6.18), 8.04);
+}
+
+.btn--secondary.btn--inverse:active,
+.btn--secondary.btn--inverse:focus,
+.btn--secondary.btn--inverse:hover {
+    background-color: $color-white;
+    color: $color-secondary;
+    border-color: $color-white;
+}
+
+.btn--small {
+    width: 100px;
+    height: 30px;
+    line-height: 28px;
+    font-size: 11px;
+}
+
+/* Button Block */
+
+.btn--block {
+    width: 100%;
+}
+
+.btn--auto {
+    width: auto !important;
+    padding: 0 13px;
+}

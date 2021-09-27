@@ -1,0 +1,387 @@
+::selection {
+  background-color: #ffc527;
+}
+
+a {
+  color: #ffc527;
+}
+
+a:hover {
+  color: #f3b200;
+}
+
+a:focus {
+  color: #f3b200;
+}
+
+a:active {
+  color: #f3b200;
+}
+
+.text-theme {
+  color: #ffc527;
+}
+
+.higlighted-style1 {
+  background-color: #ffc527;
+}
+
+.higlighted-style3 {
+  color: #ffc527;
+}
+
+.color-theme {
+  color: #ffc527 !important;
+}
+
+.border-all {
+  border-color: #ffc527;
+}
+
+.border-top {
+  border-top-color: #ffc527;
+}
+
+.border-bottom {
+  border-bottom-color: #ffc527;
+}
+
+.border-right {
+  border-right-color: #ffc527;
+}
+
+.border-left {
+  border-left-color: #ffc527;
+}
+
+.bg-theme {
+  background-color: #ffc527 !important;
+}
+
+.bg-overlay-theme:before {
+  background-color: #ffc527;
+}
+
+.btn--primary {
+  background-color: #ffc527;
+  border-color: #ffc527;
+}
+
+.btn--primary:active,
+.btn--primary:focus,
+.btn--primary:hover {
+  background-color: #f5b508;
+  border-color: #f5b508;
+}
+
+.bg-dark .btn--primary:active,
+.bg-dark .btn--primary:focus,
+.bg-dark .btn--primary:hover {
+  color: #ffc527;
+}
+
+.btn--primary.btn--inverse:active,
+.btn--primary.btn--inverse:focus,
+.btn--primary.btn--inverse:hover {
+  color: #ffc527;
+}
+
+.btn--dark:active,
+.btn--dark:focus,
+.btn--dark:hover {
+  background-color: #ffc527;
+  border-color: #ffc527;
+}
+
+.btn--bordered.btn--primary {
+  color: #ffc527;
+  border-color: #ffc527;
+}
+.btn--bordered.btn--primary:active, .btn--bordered.btn--primary:focus, .btn--bordered.btn--primary:hover {
+  background-color: #ffc527;
+  border-color: #ffc527;
+}
+
+.form-control:focus {
+  border-color: #ffc527;
+}
+
+.backtop {
+  background-color: #ffc527;
+}
+
+.heading-icon {
+  color: #ffc527;
+}
+
+.heading-18 .heading-title {
+  color: #ffc527;
+}
+
+.heading .heading-divider2:before {
+  background-color: #ffc527;
+}
+
+.heading .heading-divider3:before {
+  background-color: #ffc527;
+}
+
+.heading .heading-divider3:after {
+  background-color: #ffc527;
+}
+
+.heading .heading-divider4:before {
+  background-color: #ffc527;
+}
+
+.page-loader .loader {
+  border-left-color: #ffc527;
+}
+
+@media only screen and (min-width: 992px) {
+  ul.mega-menu li ul li span {
+    color: #ffc527;
+  }
+
+  .mega-dropdown-menu .container a[href="#"] {
+    color: #ffc527;
+  }
+}
+.module-btn .btn {
+  background-color: #ffc527;
+  border-color: #ffc527;
+}
+.module-btn .btn:hover {
+  background-color: #f5b508;
+  border-color: #f5b508;
+}
+.module-btn .btn.btn-transparent:hover {
+  color: #ffc527;
+}
+.module-btn .btn.btn-white {
+  color: #ffc527;
+}
+
+.hero-10:before {
+  background-color: #ffc527;
+}
+
+.hero-13 .feature-panel .feature-data h4 {
+  color: #ffc527;
+}
+
+.hero-18 .text-panel h4 {
+  color: #ffc527;
+}
+
+.hero-20 .scroll--down-btn:hover {
+  background-color: #ffc527;
+}
+
+.hero-24 .hero-subheadline {
+  color: #ffc527;
+}
+
+.feature-panel .feature-icon {
+  color: #ffc527;
+}
+
+.feature-left-circle .feature-panel .feature-icon {
+  background-color: #ffc527;
+}
+
+.feature-4 .feature-panel .feature-icon {
+  background-color: #ffc527;
+}
+
+.feature-16 .feature-panel .feature-icon {
+  color: #ffc527;
+}
+
+.pricing-panel .pricing-heading h4 {
+  color: #ffc527;
+}
+
+.pricing-1 .price-table-2 .pricing-heading {
+  background-color: #ffc527;
+}
+.pricing-1 .price-table-2 .pricing-top {
+  background-color: #ffc527;
+}
+
+.pricing-3 .price {
+  color: #ffc527;
+}
+
+.pricing-5 .btn--bordered.btn--primary:hover {
+  border-color: #ffc527;
+}
+
+.pricing-7 .table td.buy a {
+  color: #ffc527;
+}
+.pricing-7 .pricing-icon a {
+  color: #ffc527;
+}
+
+.carousel-navs .owl-controls .owl-nav [class*=owl-]:hover {
+  color: #ffc527;
+}
+
+.pormo-builder .title .title-subheading p {
+  color: #ffc527;
+}
+.pormo-builder .title .title-heading h2 span {
+  color: #ffc527;
+}
+.pormo-builder .title .title-heading .typed-content:before {
+  background-color: #ffc527;
+}
+.pormo-builder .title .title-action .btn:hover {
+  color: #ffc527;
+}
+.pormo-builder .builder-img {
+  transition: transform 0.2s ease-out;
+  position: relative;
+  display: block;
+}
+.pormo-builder .builder-img img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.landing-footer .footer-bottom a:hover {
+  color: #ffc527;
+}
+
+.section-wrapper .markup-wrapper .modal-header {
+  background: #ffc527;
+}
+.section-wrapper .markup-wrapper .modal-header .modal-body .btn-clipboard {
+  background-color: #ffc527;
+}
+
+.contact-4 .features-list li:before {
+  color: #ffc527;
+}
+
+.contact-8 .form-control:focus {
+  border-color: #ffc527;
+}
+
+.contact-9 .form-control:focus {
+  border-color: #ffc527;
+}
+
+.contact-11 .form-control:focus {
+  border-color: #ffc527;
+}
+
+.video--player:hover {
+  background-color: #ffc527;
+}
+
+.video-12 .view--more {
+  color: #ffc527;
+}
+
+.banner-7 .divider--theme:before,
+.banner-7 .divider--theme:after {
+  background-color: #ffc527;
+}
+
+.team-3 .member-info h6 span {
+  color: #ffc527;
+}
+.team-3 .member-donate {
+  background-color: #ffc527;
+}
+
+.tabs .nav-tabs > li.active > a h3,
+.tabs .nav-tabs > li.active > a:focus h3,
+.tabs .nav-tabs > li.active > a:hover h3,
+.tabs .nav-tabs > li.active > a i,
+.tabs .nav-tabs > li.active > a:focus i,
+.tabs .nav-tabs > li.active > a:hover i {
+  color: #ffc527;
+}
+
+.skills .progress-bar {
+  background-color: #ffc527;
+}
+
+.portfolio-filter li a:hover,
+.portfolio-filter li a a.active-filter {
+  color: #ffc527;
+}
+
+/* Portfolio Item */
+.portfolio-item .portfolio-title h4 a:hover {
+  color: #ffc527;
+}
+
+.timeline-content:before {
+  background-color: #ffc527;
+}
+
+.timeline-content:after {
+  border-top-color: #ffc527;
+}
+
+.timeline-content .timeline-panel:before {
+  border-color: #ffc527;
+}
+
+.countdown-heading {
+  background-color: #ffc527;
+}
+
+.count-down-1 .heading .heading-subtitle {
+  color: #ffc527;
+}
+
+.course--price {
+  background-color: #ffc527;
+}
+
+.screenshoot-4 .instagram--icon {
+  color: #ffc527;
+}
+.screenshoot-4 .instagram--icon a {
+  color: #ffc527;
+}
+
+.count-box .counting-icon {
+  color: #ffc527;
+}
+
+.counter-1 .count-box a.btn:hover {
+  background-color: #ffc527;
+}
+
+.property-item .property--info .price {
+  color: #ffc527;
+}
+
+.services-3 .service-panel h3:hover {
+  color: #ffc527;
+}
+
+.services-4 .service-panel p span {
+  color: #ffc527;
+}
+
+.modal button.close:hover {
+  color: #ffc527;
+}
+
+.popup-2 .heading-icon {
+  background-color: #ffc527;
+}
+
+.switcher-screenshoots li .screenshoot-overlay {
+  background-color: rgba(255, 197, 39, 0.9);
+}
+
+/*# sourceMappingURL=theme-yellow.css.map */

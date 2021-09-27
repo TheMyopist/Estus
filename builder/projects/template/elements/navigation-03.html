@@ -1,0 +1,94 @@
+<header id="navbar-spy" class="header header-light header-topbar">
+    <div class="topbar topbar-bordered">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="float-left">
+                        <div class="module module-info">
+                            <span class="editContent mr-lg-3x"><strong>Email:</strong> support@zytheme.com</span>
+                            <span class="editContent"><strong>Call us:</strong> +201093515252</span>
+                        </div>
+                    </div>
+                    <div class="float-right">
+                        <div class="module module-social">
+                            <a href="#" <i class="crownicon facebook"><i <i class="crownicon fa fa-facebook"></i></a>
+                            <a href="#" class="twitter"><i <i class="crownicon fa fa-twitter"></i></a>
+                            <a href="#" class="google"><i <i class="crownicon fa fa-google"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">
+                <img class="logo-dark" src="assets/images/logo/logo-dark.png" alt="Crown Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toogle-inner"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav  ml-auto">
+                    <li class="active">
+                        <a data-scroll="scrollTo" href="#team1">Speakers</a>
+                    </li>
+                    <li>
+                        <a data-scroll="scrollTo" href="#timeline1">Schedule</a>
+                    </li>
+                    <li>
+                        <a data-scroll="scrollTo" href="#countdown1">Event information</a>
+                    </li>
+                    <li>
+                        <a data-scroll="scrollTo" href="#googleMaps">Location</a>
+                    </li>
+                </ul>
+                <div class="module-container">
+                    <div class="module module-btn">
+                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#popupEvent">Get
+                            A ticket</a>
+                        <!-- Modal -->
+                        <div class="modal fade popup-1" id="popupEvent" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-sm-12 col-lg-12">
+                                                <div id="eventbrite-widget-container-53382478430"></div>
+
+                                                <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+                                                <script>
+                                                    var exampleCallback = function () {
+                                                        console.log('Order complete!');
+                                                    };
+
+                                                    window.EBWidgets.createWidget({
+                                                        // Required
+                                                        widgetType: 'checkout',
+                                                        eventId: '53382478430',
+                                                        iframeContainerId: 'eventbrite-widget-container-53382478430',
+
+                                                        // Optional
+                                                        iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
+                                                        onOrderComplete: exampleCallback // Method called when an order has successfully completed
+                                                    });
+                                                </script>
+                                            </div>
+                                            <!-- .col-lg-5 end -->
+                                        </div>
+                                        <!-- .row end -->
+                                    </div>
+                                    <!-- .Modal-body end -->
+                                </div>
+                                <!-- .Modal-content end -->
+                            </div>
+                        </div>
+                        <!-- .Modal end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>

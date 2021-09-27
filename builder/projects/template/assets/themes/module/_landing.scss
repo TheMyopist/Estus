@@ -1,0 +1,83 @@
+.pormo-builder {
+
+    .title {
+
+        .title-subheading {
+            p {
+                color: $color-theme;
+            }
+        }
+
+        .title-heading {
+
+            h2 {
+
+                span {
+                    color: $color-theme
+                }
+            }
+
+            .typed-content {
+                &:before {
+                    background-color: $color-theme
+                }
+            }
+        }
+
+
+        .title-action {
+
+            .btn {
+
+                &:hover {
+                    color: $color-theme;
+                }
+            }
+        }
+
+
+    }
+
+    .builder-img {
+        transition: transform 0.2s ease-out;
+        position: relative;
+        display: block;
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+        }
+    }
+}
+
+.landing-footer {
+
+    .footer-bottom {
+
+        a {
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+
+    }
+}
+
+.section-wrapper {
+
+    .markup-wrapper {
+        .modal-header {
+            background: $color-theme;
+
+            .modal-body {
+                .btn-clipboard {
+                    background-color: $color-theme;
+                }
+
+            }
+        }
+    }
+}

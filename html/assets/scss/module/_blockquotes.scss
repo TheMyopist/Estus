@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #Blockquotes
+\*------------------------------------*/
+
+.blockquote,
+blockquot {
+    font-size: 24px;
+    font-family: $font-heading;
+    color: $color-body;
+    font-style: italic;
+    line-height: 39px;
+    font-weight: 600;
+    position: relative;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-author {
+    font-family: $font-body;
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 24px;
+    position: relative;
+}
+
+
+/* blockquote #1 */
+
+.blockquote-section-1 {
+    padding: 180px 0 190px
+}
+
+.blockquote-1 {
+    padding: 0 70px;
+    font-style: normal;
+
+}
+
+.blockquote-1,
+.blockquote-1 .quote-author {
+    color: $color-white;
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .blockquote-1 {
+        padding: 0;
+
+    }
+}
